@@ -1,15 +1,15 @@
 function focus(object) {
-  document.getElementById(object);
-  object.focus();
-}
-
-searchBar = document.getElementById("search");
-document.addEventListener('keydown', function(event) {
-  if (event.keyCode === 49) {
-    focus("searchBar");
+    document.getElementById(object);
+    object.focus();
   }
-});
-
-window.addEventListener('load', function() {
-    object.focus(searchBar);
-});
+  
+  searchBar = document.getElementById("search");
+  document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 49) {
+      focus("searchBar");
+    }
+  });
+  
+  window.addEventListener('load', function() {
+      object.focus(searchBar);
+  });
