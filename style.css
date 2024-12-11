@@ -130,6 +130,7 @@ body {
 .appCaption {
   align: center;
   font-family: 'Quicksand';
+  text-decoration: none;
 }
 
 
