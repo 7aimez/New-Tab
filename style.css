@@ -120,3 +120,8 @@ body {
   top: 5px;
 }
 
+.appImage {
+  width: 100px;
+  height: 100px;
+  background-color: lightgrey;
+}
