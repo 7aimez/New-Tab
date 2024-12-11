@@ -126,3 +126,12 @@ body {
   background-color: lightgrey;
   border-radius: 10px;
 }
+
+.appCaption {
+  align: center;
+  font-family: 'Quicksand';
+}
+
+
+
+
